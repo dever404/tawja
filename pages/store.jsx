@@ -1,12 +1,11 @@
 import Product from '../components/product/product';
 import Detail from '../components/product/detail'
-import { useRouter } from 'next/router';
-import data from "../components/product/data";
+import { useRouter }  from 'next/router';
 
-export default function store() {
+export default function Store() {
   const router = useRouter();
   const myParam = router.query.product;
-  console.log(myParam);
+
   if(myParam) {
     return <Detail myParam={myParam} />
   }else {

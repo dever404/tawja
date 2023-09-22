@@ -10,9 +10,8 @@ const Product = ({ items = data }) => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-4 md:gap-6">
         {items.map((i) => (
-          <Link href={"/store?product="+ i.id } rel="noopener noreferrer">
+          <Link key={i.id} href={"/store?product="+ i.id } rel="noopener noreferrer">
             <div
-              key={i.id}
               className="shadow-lg rounded-2xl hover:scale-[101%] ease-in-out duration-300 cursor-pointer h-[260px] bg-center bg-no-repeat bg-cover relative after:content-[''] after:absolut after:flex after:bottom-0 after:left-0 after:w-full after:h-full  after:bg-gradient-to-t from-black to-transparent overflow-hidden"
               style={{ backgroundImage: 'url("/img/products/p'+ 1 +'.jpg")' }}
             >
