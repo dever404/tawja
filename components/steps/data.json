@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Etape 1",
+    "description": "Collecte de matériaux et de ressources financières.",
+    "img": {
+      "src": "/img/etap1.jpg",
+      "alt": "Collecte de fonds"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Etape 2",
+    "description": "Acheter et préparer le matériel.",
+    "img": {
+      "src": "/img/etap2.jpg",
+      "alt": "Acheter et préparer le matériel."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Etape 3",
+    "description": "Déplacement sur site et mise en œuvre du projet.",
+    "img": {
+      "src": "/img/etap3.jpg",
+      "alt": "Déplacement sur site"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Etape 4",
+    "description": "Livraison du complexe de logements des résidents",
+    "img": {
+      "src": "/img/etap4.jpg",
+      "alt": "Livraison du complexe "
+    }
+  }
+]

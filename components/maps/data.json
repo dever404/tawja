@@ -1,0 +1,10 @@
+
+  {
+    "id": 1,
+    "title": "Etape 1",
+    "description": "Déposez votre liste scolaire ",
+    "img": {
+      "src": "/img/etap1.jpg",
+      "alt": "déposez votre liste scolaire"
+    }
+  }

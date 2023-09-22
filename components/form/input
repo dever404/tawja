@@ -1,0 +1,10 @@
+<div className="grid md:grid-cols-2 md:gap-6">
+          <div className="relative z-0 mb-6 w-full group">
+          <label className="block mb-2 text-sm font-medium text-gray-400" htmlFor="pj">Liste des fournitures : </label>
+<input className="block w-full text-sm text-gray-900  text-gray-400 focus:outline-none cursor-pointer border-0 border-b-2 border-gray-600 pb-3" id="pj" name='pj' type="file"/>
+          </div>
+          <div className="relative z-0 mb-6 w-full group">
+          <label className="block mb-2 text-sm font-medium text-gray-400" htmlFor="pj_1">Liste des manuels scolaires :</label>
+<input className="block w-full text-sm text-gray-900  text-gray-400 focus:outline-none cursor-pointer border-0 border-b-2 border-gray-600 pb-3" id="pj_1" name='pj2' type="file"/>
+          </div>
+        </div>
