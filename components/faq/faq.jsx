@@ -3,7 +3,7 @@ import data from "./data";
 const Faq = ({ items = data }) => {
   return (
     <div className="mb-10 md:mb-20">
-      <h2 className="text-center text-2xl md:text-[50px] font-bold mb-8 md:mb-12">A propos de project</h2>
+      <h2 className="text-center text-2xl md:text-[50px] font-bold mb-8 md:mb-12">About Project</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8">
         {items.map((i) => (
           <div key={i.id} className="p-10 shadow-lg border border-text-gray-500 rounded-lg mb-2">

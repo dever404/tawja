@@ -26,7 +26,6 @@ import { NextResponse, NextRequest } from "next/server";
 import { google } from "googleapis";
 
 export default async function handler(req, res) {
-  
   try {
     const auth = new google.auth.GoogleAuth({
       credentials: {
@@ -47,10 +46,10 @@ export default async function handler(req, res) {
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range: "A1:F1",
+      range: "A1:E1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [[req.body.first_name, req.body.last_name, req.body.phone, req.body.email, req.body.adress, req.body.list]],
+        values: [[req.body.first_name, req.body.last_name, req.body.phone, req.body.produit, req.body.adress]],
       },
     });
 
